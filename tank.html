@@ -1,45 +1,26 @@
-<>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Unblocked Games - Featured Game: Tank Trouble</title>
+    <title>Tank Trouble - Full Screen</title>
     <style>
-        .navbar {
-            background-color: #333;
+        body {
+            margin: 0;
+            padding: 0;
             overflow: hidden;
-            position: fixed;
+        }
+
+        #webgl_iframe {
+            position: absolute;
             top: 0;
+            left: 0;
             width: 100%;
-            z-index: 1;
-        }
-
-        .navbar a {
-            float: left;
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
-
-        .navbar a:hover {
-            background-color: #ddd;
-            color: black;
-        }
-
-        .content {
-            padding-top: 60px;
+            height: 100%;
         }
     </style>
 </head>
-<body class="content">
-    <div class="navbar">
-        <a href="tank-trouble.html">Games</a>
-        <a href="tank.html">Tank Trouble</a>
-    </div>
-    <iframe src="https://tanktrouble2.netlify.app/" width="810" height="640"></iframe>
-    <h1>Unblocked Games - Featured Game: Tank Trouble</h1>
-    <p>Enjoy the popular and addictive multiplayer tank game, Tank Trouble, and challenge your friends or play against the AI.</p>
+<body>
+    <iframe id="webgl_iframe" src="https://tanktrouble2.netlify.app/" allow="autoplay; fullscreen; vr" allowfullscreen></iframe>
 </body>
 </html>
